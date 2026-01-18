@@ -2,6 +2,8 @@
 
 This guide will help you set up your macOS development environment for creating games with Godot 4.2+ and VS Code.
 
+**Note**: This course is designed for Godot 4.2+. Godot 4.5 (or any 4.x version) works perfectly!
+
 ## Prerequisites
 
 - macOS (you're all set!)
@@ -24,7 +26,7 @@ This installs the latest stable version of Godot 4.
 ### Option B: Direct Download
 
 1. Visit [godotengine.org/download/macos](https://godotengine.org/download/macos/)
-2. Download **Godot 4.2.x Standard** (not .NET version unless you want C# support)
+2. Download **Godot 4.x Standard** (4.2, 4.5, or later - not .NET version unless you want C# support)
 3. Open the `.dmg` file and drag Godot to Applications
 4. First launch: Right-click Godot → Open (to bypass macOS security)
 
@@ -40,18 +42,19 @@ godot --version
 /Applications/Godot.app/Contents/MacOS/Godot --version
 ```
 
-You should see output like: `4.2.x.stable.official`
+You should see output like: `4.2.x.stable.official` or `4.5.x.stable.official` (any 4.x version works)
 
-## Step 2: Create Your First Project
+## Step 2: Import the Project
 
 ### Using Godot Project Manager
 
 1. Open Godot (you'll see the Project Manager window)
-2. Click **New Project**
-3. Set **Project Name**: `vivecode-game`
-4. Set **Project Path**: Select this folder (`/Users/leandrofernandez/Documents/projects/vivecode-game`)
-5. Choose **Renderer**: **Forward+** (best quality for learning)
-6. Click **Create & Edit**
+2. Click **Import**
+3. Click **Browse** and navigate to this folder: `/Users/leandrofernandez/Documents/projects/vivecode-game`
+4. Select the folder (Godot will detect the `project.godot` file)
+5. Click **Import & Edit**
+
+**Note**: We use "Import" instead of "New Project" because the `project.godot` file already exists in your repo with pre-configured settings (input mappings, collision layers, etc.).
 
 **Important**: You need to have a project open to access Editor Settings in the next step!
 
@@ -73,7 +76,7 @@ You should see output like: `4.2.x.stable.official`
 3. Check **Use External Editor**
 4. Set **Exec Path** to:
    ```
-   /Applications/Visual Studio Code.app/Contents/MacOS/Electron
+   /usr/local/bin/code
    ```
    (Or find it with: `which code` in Terminal)
 5. Set **Exec Flags** to:
@@ -93,9 +96,11 @@ In VS Code:
 
 1. Open Settings (⌘+,)
 2. Search for "godot"
-3. Set **Godot_tools: Editor Path** to:
+3. Find **Godot Tools > Editor Path: Godot4** and set it to:
    - Homebrew: `/Applications/Godot.app`
    - Direct: `/Applications/Godot.app`
+
+**Note**: The extension has separate paths for Godot 3 and Godot 4. Make sure you set the **Godot4** path since you're using Godot 4.5!
 
 ### Project Structure
 

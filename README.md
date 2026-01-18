@@ -132,7 +132,7 @@ By the end of this course, you'll understand:
 
 ## 🛠️ Tech Stack
 
-- **Engine**: Godot 4.2+ (open-source, cross-platform)
+- **Engine**: Godot 4.2+ (open-source, cross-platform) — **Godot 4.5+ fully supported**
 - **Language**: GDScript (Python-like, beginner-friendly)
 - **Editor**: VS Code with godot-tools extension
 - **Version Control**: Git with branch-per-lesson strategy

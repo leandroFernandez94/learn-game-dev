@@ -308,7 +308,7 @@ Student should understand:
 
 ## Repository Metadata
 
-- **Engine**: Godot 4.2+ (4.2.0.stable or higher)
+- **Engine**: Godot 4.2+ (4.2.0.stable or higher, 4.5.x fully supported)
 - **Language**: GDScript (Godot's built-in scripting language)
 - **Platform**: macOS (but cross-platform compatible)
 - **License**: MIT (for course code, student owns their game)

@@ -2,6 +2,8 @@
 
 This guide will help you set up your macOS development environment for creating games with Godot 4.2+ and VS Code.
 
+**Note**: This course is designed for Godot 4.2+. Godot 4.5 (or any 4.x version) works perfectly!
+
 ## Prerequisites
 
 - macOS (you're all set!)
@@ -24,7 +26,7 @@ This installs the latest stable version of Godot 4.
 ### Option B: Direct Download
 
 1. Visit [godotengine.org/download/macos](https://godotengine.org/download/macos/)
-2. Download **Godot 4.2.x Standard** (not .NET version unless you want C# support)
+2. Download **Godot 4.x Standard** (4.2, 4.5, or later - not .NET version unless you want C# support)
 3. Open the `.dmg` file and drag Godot to Applications
 4. First launch: Right-click Godot → Open (to bypass macOS security)
 
@@ -40,7 +42,7 @@ godot --version
 /Applications/Godot.app/Contents/MacOS/Godot --version
 ```
 
-You should see output like: `4.2.x.stable.official`
+You should see output like: `4.2.x.stable.official` or `4.5.x.stable.official` (any 4.x version works)
 
 ## Step 2: Import the Project
 

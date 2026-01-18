@@ -42,7 +42,20 @@ godot --version
 
 You should see output like: `4.2.x.stable.official`
 
-## Step 2: Configure VS Code
+## Step 2: Create Your First Project
+
+### Using Godot Project Manager
+
+1. Open Godot (you'll see the Project Manager window)
+2. Click **New Project**
+3. Set **Project Name**: `vivecode-game`
+4. Set **Project Path**: Select this folder (`/Users/leandrofernandez/Documents/projects/vivecode-game`)
+5. Choose **Renderer**: **Forward+** (best quality for learning)
+6. Click **Create & Edit**
+
+**Important**: You need to have a project open to access Editor Settings in the next step!
+
+## Step 3: Configure VS Code
 
 ### Install Godot Tools Extension
 
@@ -53,23 +66,24 @@ You should see output like: `4.2.x.stable.official`
 
 ### Configure VS Code as External Editor in Godot
 
-1. Open Godot
-2. Go to **Editor → Editor Settings**
-3. Navigate to **Text Editor → External**
-4. Check **Use External Editor**
-5. Set **Exec Path** to:
+**Note**: Make sure you have the vivecode-game project open in Godot first!
+
+1. In Godot, go to **Editor → Editor Settings** (or press **⌘+,**)
+2. Navigate to **Text Editor → External**
+3. Check **Use External Editor**
+4. Set **Exec Path** to:
    ```
    /Applications/Visual Studio Code.app/Contents/MacOS/Electron
    ```
    (Or find it with: `which code` in Terminal)
-6. Set **Exec Flags** to:
+5. Set **Exec Flags** to:
    ```
    {project} --goto {file}:{line}:{col}
    ```
 
 ### Enable GDScript Language Server
 
-1. In Godot: **Editor → Editor Settings**
+1. In Godot: **Editor → Editor Settings** (or press **⌘+,**)
 2. Navigate to **Network → Language Server**
 3. Check **Enable** and **Use Thread**
 4. Set **Remote Host** to `127.0.0.1`
@@ -82,17 +96,6 @@ In VS Code:
 3. Set **Godot_tools: Editor Path** to:
    - Homebrew: `/Applications/Godot.app`
    - Direct: `/Applications/Godot.app`
-
-## Step 3: Create Your First Project
-
-### Using Godot Project Manager
-
-1. Open Godot
-2. Click **New Project**
-3. Set **Project Name**: `vivecode-game`
-4. Set **Project Path**: Select this folder (`/Users/leandrofernandez/Documents/projects/vivecode-game`)
-5. Choose **Renderer**: **Forward+** (best quality for learning)
-6. Click **Create & Edit**
 
 ### Project Structure
 

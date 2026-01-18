@@ -96,9 +96,11 @@ In VS Code:
 
 1. Open Settings (⌘+,)
 2. Search for "godot"
-3. Set **Godot_tools: Editor Path** to:
+3. Find **Godot Tools > Editor Path: Godot4** and set it to:
    - Homebrew: `/Applications/Godot.app`
    - Direct: `/Applications/Godot.app`
+
+**Note**: The extension has separate paths for Godot 3 and Godot 4. Make sure you set the **Godot4** path since you're using Godot 4.5!
 
 ### Project Structure
 

@@ -1,0 +1,15 @@
+# Placeholder for audio assets
+# Sound effects should be short WAV or OGG files
+
+# TODO: Create or source audio files:
+- jump.wav (short blip, ~0.1s)
+- shoot.wav (quick beep, ~0.1s)
+- hit.wav (impact sound, ~0.2s)
+- pickup.wav (collection chime, ~0.2s)
+- enemy_hurt.wav (damage indicator, ~0.2s)
+- music_loop.ogg (optional background music)
+
+# Can be generated with tools like:
+# - Bfxr (https://www.bfxr.net/)
+# - ChipTone (https://sfbgames.itch.io/chiptone)
+# - LMMS for music

@@ -76,6 +76,7 @@ You should see output like: `4.2.x.stable.official`
 5. Set **Remote Port** to `6005`
 
 In VS Code:
+
 1. Open Settings (⌘+,)
 2. Search for "godot"
 3. Set **Godot_tools: Editor Path** to:
@@ -96,6 +97,7 @@ In VS Code:
 ### Project Structure
 
 Godot will create:
+
 ```
 vivecode-game/
 ├── project.godot          # Project configuration
@@ -118,6 +120,7 @@ vivecode-game/
 6. Right-click the script in FileSystem → **Open in External Editor**
 
 VS Code should open with:
+
 - Syntax highlighting
 - Autocomplete (type `func` and press Tab)
 - Error checking
@@ -168,21 +171,25 @@ git commit -m "Initial commit - main branch setup"
 ## Troubleshooting
 
 ### VS Code not opening from Godot
+
 - Check the **Exec Path** is correct
 - Try using `code` command: Install via VS Code Command Palette → "Shell Command: Install 'code' command in PATH"
 
 ### Autocomplete not working
+
 - Ensure Language Server is enabled in Godot settings
 - Restart VS Code
 - Check Output panel (View → Output) → Select "Godot Tools"
 
 ### Godot won't open (macOS security)
+
 - Right-click Godot.app → Open (first time only)
 - System Settings → Privacy & Security → Allow Godot
 
 ## What's Next?
 
 You're ready to start learning! Proceed to:
+
 - **Lesson 00**: GDScript Primer for JavaScript Developers
 - Check the main [README.md](README.md) for the full course structure
 

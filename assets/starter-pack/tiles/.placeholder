@@ -1,8 +1,10 @@
 # Placeholder for tileset assets
+
 # Tiles should be 16x16px squares in a spritesheet
 
 # TODO: Create tileset.png with:
+
 - Gray tiles for solid platforms
-- Brown tiles for dirt/ground  
+- Brown tiles for dirt/ground
 - Green tiles for grass tops
 - Dark gray for background/decoration

@@ -1,13 +1,19 @@
 # Placeholder sprite files will be created using ImageMagick or similar tools
+
 # For now, we'll document what should be here
 
 # This file serves as a placeholder to track sprite creation
+
 # In a real setup, you would create these with:
+
 # convert -size 16x16 xc:blue sprites/player.png
+
 # convert -size 16x16 xc:red sprites/enemy_walker.png
+
 # etc.
 
 # TODO: Generate actual PNG files for:
+
 - player.png (16x16 blue rectangle)
 - enemy_walker.png (16x16 red circle)
 - enemy_flyer.png (16x16 orange triangle)

@@ -41,6 +41,7 @@ func example_function() -> void:
 ```
 
 **Key Takeaways**:
+
 - Why this pattern is useful
 - Common use cases
 - How it relates to web dev patterns (if applicable)
@@ -54,6 +55,7 @@ func example_function() -> void:
 ```
 
 **Key Takeaways**:
+
 - Important points about this pattern
 
 ### Godot-Specific Idioms
@@ -131,6 +133,7 @@ func good_approach():
 **Goal**: {What to accomplish}
 
 **Steps**:
+
 1. Modify X in the code
 2. Test by doing Y
 3. Observe the result
@@ -142,6 +145,7 @@ func good_approach():
 **Goal**: {What to accomplish}
 
 **Hints**:
+
 - You'll need to use {concept from this lesson}
 - Reference the {pattern} we learned above
 - Don't forget to {important consideration}
@@ -155,6 +159,7 @@ func good_approach():
 **Challenge**: This requires combining concepts from this lesson with {previous lesson}
 
 **Hints**:
+
 - Think about how {concept} could apply here
 - You may need to research {Godot API feature}
 
@@ -165,6 +170,7 @@ func good_approach():
 **Goal**: Make it your own!
 
 **Ideas**:
+
 - Change the aesthetic (colors, sizes, effects)
 - Add a twist to the mechanic
 - Combine with a different game genre
@@ -174,6 +180,7 @@ func good_approach():
 **Goal**: Deep dive into a related concept
 
 **Research Topics**:
+
 - Read Godot documentation on {topic}
 - Investigate how {game title} implemented {feature}
 - Study the difference between {approach A} and {approach B}
@@ -184,16 +191,17 @@ func good_approach():
 
 <!-- Help web developers relate game concepts to familiar territory -->
 
-| Game Dev Concept | Web Dev Equivalent | Key Differences |
-|------------------|-------------------|-----------------|
-| Godot Signals | Event listeners | Typed, editor-connected, no capturing phase |
-| Scene instancing | Component composition | Tree-based, not virtual DOM |
-| @export variables | Component props | Inspector-editable, not reactive |
-| Autoload singletons | Global state managers | Persistent across scenes |
+| Game Dev Concept    | Web Dev Equivalent    | Key Differences                             |
+| ------------------- | --------------------- | ------------------------------------------- |
+| Godot Signals       | Event listeners       | Typed, editor-connected, no capturing phase |
+| Scene instancing    | Component composition | Tree-based, not virtual DOM                 |
+| @export variables   | Component props       | Inspector-editable, not reactive            |
+| Autoload singletons | Global state managers | Persistent across scenes                    |
 
 ## What's Next
 
 **In the next lesson** (`lesson-{next-number}-{next-topic}`), you'll learn:
+
 - Next major concept
 - How it builds on this lesson
 - Why it's important for the game
@@ -227,4 +235,4 @@ By completing this lesson, you should be able to:
 
 ---
 
-*This summary was generated for Lesson {number} of the ViveCode Game Development Course. See [README.md](../../README.md) for the complete curriculum.*
+_This summary was generated for Lesson {number} of the ViveCode Game Development Course. See [README.md](../../README.md) for the complete curriculum._
